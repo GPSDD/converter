@@ -13,3 +13,6 @@ develop:
   command: develop
   volumes:
     - ./app:/opt/converter/app
+  extra_hosts:
+    - "mymachine:$MYMACHINE"
+
